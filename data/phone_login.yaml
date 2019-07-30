@@ -1,0 +1,15 @@
+phone_login:
+  test_case_001:
+    phone_no: "18999999991"
+    vervify_code: "xxx"
+    expected: True
+
+  test_case_002:
+    phone_no: "18999999991"
+    vervify_code: "yyy"
+    expected: False
+
+  test_case_003:
+    phone_no: "18999990000"
+    vervify_code: "yyy"
+    expected: False
